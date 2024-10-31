@@ -321,3 +321,36 @@ p {
         font-size: 14px;
     }
 }
+@media (max-width: 768px) {
+    .media-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .video-container {
+        width: 100%;
+    }
+
+    .extra-images {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .extra-images img {
+        width: 80%;
+    }
+
+    .activities-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activity-item {
+        width: 90%;
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
