@@ -293,3 +293,31 @@ p {
     color: #555;
     line-height: 1.6;
 }
+
+@media (max-width: 360px) {
+    .profile-card {
+        padding: 20px;
+    }
+    
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    
+    .button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
